@@ -29,7 +29,7 @@ module.exports = {
       { namedComponents: ['arrow-function'] },
     ],
     'react/require-default-props': 0,
-    'import/extensions': [2, 'ignorePackages'],
+    'import/extensions': [2, 'ignorePackages', { ts: 'never', tsx: 'never' }],
     'import/prefer-default-export': 0,
     'import/no-unresolved': 0,
     'import/no-extraneous-dependencies': [
