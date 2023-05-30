@@ -16,11 +16,16 @@
     "@chakra-ui/react": "^2.6.1",
     "@emotion/react": "^11.11.0",
     "@emotion/styled": "^11.11.0",
+    "@nikolovlazar/chakra-ui-prose": "^1.2.1",
+    "dompurify": "^3.0.3",
     "framer-motion": "^10.12.16",
+    "marked": "^5.0.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@types/dompurify": "^3.0.2",
+    "@types/marked": "^5.0.0",
     "@types/react": "^18.0.37",
     "@types/react-dom": "^18.0.11",
     "@typescript-eslint/eslint-plugin": "^5.59.0",
