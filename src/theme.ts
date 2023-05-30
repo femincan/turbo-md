@@ -1,11 +1,18 @@
-import { extendTheme } from '@chakra-ui/react';
+import { extendTheme, ThemeConfig } from '@chakra-ui/react';
+
+const config: ThemeConfig = {
+  initialColorMode: 'system',
+  useSystemColorMode: true,
+};
 
 const theme = extendTheme({
   fonts: {
+    heading: "'IBM Plex Sans', sans-serif",
+    body: "'IBM Plex Sans', sans-serif",
+    mono: "'IBM Plex Mono', monospace",
     logo: "'Cherry Bomb One', cursive",
-    editor: "font-family: 'IBM Plex Mono', monospace;",
-    general: "font-family: 'IBM Plex Sans', sans-serif;",
   },
+  config,
 });
 
 export { theme };
