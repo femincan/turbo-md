@@ -7,7 +7,7 @@ const Footer = () => (
       alignItems: 'center',
       justifyContent: 'center',
       textAlign: 'center',
-      fontSize: 'large',
+      fontSize: ['md', 'lg'],
       gap: 1,
 
       '& a': {
