@@ -9,6 +9,7 @@ const Footer = () => (
       textAlign: 'center',
       fontSize: ['md', 'lg'],
       gap: 1,
+      p: 3,
 
       '& a': {
         textDecoration: 'underline',
