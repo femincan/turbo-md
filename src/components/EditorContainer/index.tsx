@@ -49,7 +49,7 @@ const EditorContainer = () => {
           bg: useColorModeValue('whiteAlpha.900', 'gray.800'),
           boxShadow: '2xl',
           borderRadius: 'inherit',
-          '& > div:nth-child(odd)': {
+          '& > div:nth-of-type(odd)': {
             flex: 1,
           },
         }}
@@ -66,12 +66,12 @@ const EditorContainer = () => {
               fontSize: 'sm',
               zIndex: 1,
             },
-            '& > span:first-child': {
+            '& > span:first-of-type': {
               right: { md: 2 },
               left: { base: 2, md: 'unset' },
               top: { base: -6, md: 1 },
             },
-            '& > span:last-child': {
+            '& > span:last-of-type': {
               left: 2,
               top: { base: 2, md: 1 },
             },
