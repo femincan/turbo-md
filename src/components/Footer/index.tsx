@@ -1,11 +1,9 @@
-import { Flex, Link, Text } from '@chakra-ui/react';
+import { Center, Link, Text } from '@chakra-ui/react';
 
 const Footer = () => (
-  <Flex
+  <Center
     sx={{
       flexDirection: 'column',
-      alignItems: 'center',
-      justifyContent: 'center',
       textAlign: 'center',
       fontSize: ['md', 'lg'],
       gap: 1,
@@ -24,7 +22,7 @@ const Footer = () => (
       Click <Link href='https://github.com/femincan/turbo-md'>here</Link> to
       access project&apos;s GitHub repository
     </Text>
-  </Flex>
+  </Center>
 );
 
 export { Footer };
