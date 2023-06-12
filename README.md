@@ -4,7 +4,8 @@
 
 A markdown editor created with React, Vite and Chakra UI for the third project of the Front End Development Libraries Curriculum of FreeCodeCamp.
 
-![Application Screenshot]()
+![Application Screenshot](https://github.com/femincan/turbo-md/assets/78358128/2095d2e4-8376-4c9d-b19c-834515a8fa68)
+
 
 ## Table of Contents
 
